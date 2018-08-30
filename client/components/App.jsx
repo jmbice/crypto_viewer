@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import moment from 'moment';
+
+import Chart from './Chart.jsx';
+
+
 
 class App extends React.Component {
   constructor(props) {
@@ -20,7 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <p>Several atreums</p>
+        <Chart />
       </div>
     )
   }
