@@ -20,7 +20,9 @@
   "homepage": "https://github.com/jmbice/crypto_viewer#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "chart.js": "^2.7.2",
     "express": "^4.16.3",
+    "moment": "^2.22.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },
