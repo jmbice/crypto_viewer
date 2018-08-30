@@ -1,0 +1,19 @@
+{
+  "name": "crypto_viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmbice/crypto_viewer.git"
+  },
+  "author": "Jordan Bice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmbice/crypto_viewer/issues"
+  },
+  "homepage": "https://github.com/jmbice/crypto_viewer#readme"
+}
