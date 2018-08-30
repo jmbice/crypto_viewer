@@ -2,18 +2,31 @@
   "name": "crypto_viewer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js",
+    "dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jmbice/crypto_viewer.git"
   },
   "author": "Jordan Bice",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jmbice/crypto_viewer/issues"
   },
-  "homepage": "https://github.com/jmbice/crypto_viewer#readme"
+  "homepage": "https://github.com/jmbice/crypto_viewer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
 }
