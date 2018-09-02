@@ -1,0 +1,72 @@
+#header {
+}
+
+#title{
+  padding-top: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  text-align: center;
+}
+
+#picker {
+  padding-bottom: 5%;
+  padding-top: 2%;
+  width: 100%;
+}
+
+#makeCall {
+  width: 42.5%;
+  height: 6.3%;
+  float: left;
+  margin: auto;
+  text-align: center;
+
+}
+
+#currencyPicker {
+  width:15%;
+  height: 6.3%;
+  float: left;
+  margin: auto;
+  text-align: center;
+
+}
+
+#datePicker {
+  width: 42.5%;
+  height: 6.3%;
+
+  float: left;
+  margin: auto;
+  text-align: center;
+
+}
+
+ /* 00a699, 66e2da,33dacd */
+#submit {
+  width: 50%;
+  color: white;
+  background: #33dacd;
+  border-color: #008489;
+  box-shadow: 0 1px 1px rgba(0 0 0 0.3);
+  border-radius: 2px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5em;
+  height: 35px;
+  font-family: Helvetica;
+  padding-top: 13px;
+  margin: auto;
+};
+
+h1 {
+  font-family: Helvetica;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-weight: 400;
+}
